@@ -1,4 +1,4 @@
-package org.lineageos.settings.kcal;
+package co.aospa.resources.kcal;
 
 public interface Utils {
     String PREF_ENABLED = "kcal_enabled";

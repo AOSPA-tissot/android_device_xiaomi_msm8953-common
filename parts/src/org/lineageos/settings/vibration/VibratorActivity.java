@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.vibration;
+package co.aospa.resources.vibration;
 
 import android.app.ActionBar;
 import android.os.Bundle;

@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.preferences;
+package co.aospa.resources.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,7 +32,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class CustomSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener,
         View.OnClickListener, View.OnLongClickListener {

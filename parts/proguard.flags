@@ -1,23 +1,23 @@
--keep class org.lineageos.settings.dirac.* {
+-keep class co.aospa.resources.dirac.* {
   *;
 }
 
--keep class org.lineageos.settings.doze.* {
+-keep class co.aospa.resources.doze.* {
   *;
 }
 
--keep class org.lineageos.settings.kcal.* {
+-keep class co.aospa.resources.kcal.* {
   *;
 }
 
--keep class org.lineageos.settings.soundcontrol.* {
+-keep class co.aospa.resources.soundcontrol.* {
   *;
 }
 
--keep class org.lineageos.settings.torch.* {
+-keep class co.aospa.resources.torch.* {
   *;
 }
 
--keep class org.lineageos.settings.vibration.* {
+-keep class co.aospa.resources.vibration.* {
   *;
 }

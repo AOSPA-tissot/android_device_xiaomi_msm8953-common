@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.torch;
+package co.aospa.resources.torch;
 
 import android.app.Fragment;
 import android.os.Bundle;

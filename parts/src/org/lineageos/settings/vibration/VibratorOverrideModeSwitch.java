@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.lineageos.settings.vibration;
+package co.aospa.resources.vibration;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,7 +23,7 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.preferences.FileUtils;
+import co.aospa.resources.preferences.FileUtils;
 
 public class VibratorOverrideModeSwitch implements OnPreferenceChangeListener {
 

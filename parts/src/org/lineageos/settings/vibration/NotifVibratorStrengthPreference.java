@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.vibration;
+package co.aospa.resources.vibration;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,9 +24,9 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceViewHolder;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.preferences.CustomSeekBarPreference;
-import org.lineageos.settings.preferences.FileUtils;
+import co.aospa.resources.R;
+import co.aospa.resources.preferences.CustomSeekBarPreference;
+import co.aospa.resources.preferences.FileUtils;
 
 public class NotifVibratorStrengthPreference extends CustomSeekBarPreference {
 

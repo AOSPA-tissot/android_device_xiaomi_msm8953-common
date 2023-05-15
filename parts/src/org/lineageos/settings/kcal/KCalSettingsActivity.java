@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.kcal;
+package co.aospa.resources.kcal;
 
 import android.app.Fragment;
 import android.os.Bundle;

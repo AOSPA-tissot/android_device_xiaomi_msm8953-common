@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.torch;
+package co.aospa.resources.torch;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,10 +24,10 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
-import org.lineageos.settings.preferences.CustomSeekBarPreference;
-import org.lineageos.settings.preferences.FileUtils;
+import co.aospa.resources.preferences.CustomSeekBarPreference;
+import co.aospa.resources.preferences.FileUtils;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class TorchSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {

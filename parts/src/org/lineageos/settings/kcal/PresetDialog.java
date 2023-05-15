@@ -1,4 +1,4 @@
-package org.lineageos.settings.kcal;
+package co.aospa.resources.kcal;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -7,7 +7,7 @@ import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class PresetDialog extends DialogFragment {
     private CharSequence[] mEntries;

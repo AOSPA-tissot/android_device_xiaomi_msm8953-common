@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.preferences;
+package co.aospa.resources.preferences;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

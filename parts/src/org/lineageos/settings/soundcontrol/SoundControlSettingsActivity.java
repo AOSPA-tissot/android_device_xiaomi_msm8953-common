@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.soundcontrol;
+package co.aospa.resources.soundcontrol;
 
 import android.app.Fragment;
 import android.os.Bundle;

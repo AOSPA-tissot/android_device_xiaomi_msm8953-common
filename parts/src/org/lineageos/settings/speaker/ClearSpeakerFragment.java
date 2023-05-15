@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.speaker;
+package co.aospa.resources.speaker;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
@@ -31,7 +31,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 import java.io.IOException;
 

@@ -20,25 +20,25 @@
     <PreferenceCategory
         android:title="@string/vibrator_intensity_control">
 
-        <org.lineageos.settings.preferences.SecureSettingSwitchPreference
+        <co.aospa.resources.preferences.SecureSettingSwitchPreference
             android:key="vmax_override"
             android:defaultValue="0"
             android:title="@string/vmax_override_mode_title"
             android:summary="@string/vmax_override_mode_summary" />
 
-        <org.lineageos.settings.vibration.VibratorStrengthPreference
+        <co.aospa.resources.vibration.VibratorStrengthPreference
             android:defaultValue="80"
             android:key="vib_strength"
             android:icon="@drawable/ic_vibrate"
             android:title="@string/system_strength_title" />
 
-        <org.lineageos.settings.vibration.CallVibratorStrengthPreference
+        <co.aospa.resources.vibration.CallVibratorStrengthPreference
             android:defaultValue="80"
             android:key="call_vib_strength"
             android:icon="@drawable/ic_vibrate"
             android:title="@string/call_strength_title" />
 
-        <org.lineageos.settings.vibration.NotifVibratorStrengthPreference
+        <co.aospa.resources.vibration.NotifVibratorStrengthPreference
             android:defaultValue="80"
             android:key="notif_vib_strength"
             android:icon="@drawable/ic_vibrate"

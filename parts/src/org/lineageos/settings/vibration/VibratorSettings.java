@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.vibration;
+package co.aospa.resources.vibration;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -28,7 +28,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class VibratorSettings extends PreferenceFragment {
 

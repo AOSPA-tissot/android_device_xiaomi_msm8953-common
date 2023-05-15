@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.speaker;
+package co.aospa.resources.speaker;
 
 import android.os.Bundle;
 

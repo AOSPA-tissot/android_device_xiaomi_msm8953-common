@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.preferences;
+package co.aospa.resources.preferences;
 
 import java.io.BufferedReader;
 import java.io.File;

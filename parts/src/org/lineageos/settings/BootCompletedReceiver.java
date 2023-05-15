@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package co.aospa.resources;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -28,18 +28,18 @@ import androidx.preference.PreferenceManager;
 
 import java.lang.Math.*;
 
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.kcal.Utils;
-import org.lineageos.settings.preferences.FileUtils;
-import org.lineageos.settings.preferences.SecureSettingSwitchPreference;
-import org.lineageos.settings.soundcontrol.SoundControlSettings;
-import org.lineageos.settings.torch.TorchSettings;
-import org.lineageos.settings.vibration.VibratorStrengthPreference;
-import org.lineageos.settings.vibration.CallVibratorStrengthPreference;
-import org.lineageos.settings.vibration.NotifVibratorStrengthPreference;
-import org.lineageos.settings.vibration.VibratorSettings;
-import org.lineageos.settings.vibration.VibratorOverrideModeSwitch;
+import co.aospa.resources.dirac.DiracUtils;
+import co.aospa.resources.doze.DozeUtils;
+import co.aospa.resources.kcal.Utils;
+import co.aospa.resources.preferences.FileUtils;
+import co.aospa.resources.preferences.SecureSettingSwitchPreference;
+import co.aospa.resources.soundcontrol.SoundControlSettings;
+import co.aospa.resources.torch.TorchSettings;
+import co.aospa.resources.vibration.VibratorStrengthPreference;
+import co.aospa.resources.vibration.CallVibratorStrengthPreference;
+import co.aospa.resources.vibration.NotifVibratorStrengthPreference;
+import co.aospa.resources.vibration.VibratorSettings;
+import co.aospa.resources.vibration.VibratorOverrideModeSwitch;
 
 public class BootCompletedReceiver extends BroadcastReceiver implements Utils {
 

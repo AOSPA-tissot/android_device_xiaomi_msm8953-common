@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.dirac;
+package co.aospa.resources.dirac;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -29,7 +29,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class DiracSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {

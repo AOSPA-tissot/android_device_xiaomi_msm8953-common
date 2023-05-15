@@ -14,18 +14,18 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.kcal;
+package co.aospa.resources.kcal;
 
 import android.os.Bundle;
 import android.provider.Settings;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference;
 
-import org.lineageos.settings.preferences.FileUtils;
-import org.lineageos.settings.preferences.SecureSettingCustomSeekBarPreference;
-import org.lineageos.settings.preferences.SecureSettingSwitchPreference;
+import co.aospa.resources.preferences.FileUtils;
+import co.aospa.resources.preferences.SecureSettingCustomSeekBarPreference;
+import co.aospa.resources.preferences.SecureSettingSwitchPreference;
 
-import org.lineageos.settings.R;
+import co.aospa.resources.R;
 
 public class KCalSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, Utils {
